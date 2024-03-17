@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffff92;
+}
+li{
+    list-style: none;
+}
+span{
+    cursor: pointer;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.container{
+    max-height: 400px;
+    overflow-y: auto;
+    margin: auto;
+    background-color: #c3e71d;
+    max-width: 420px;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+.container::-webkit-scrollbar {
+    width: 0; /* Ancho del scrollbar */
+    display: none; /* Oculta el scrollbar */
+  }
+
+.container .contaner-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.container .contaner-input input{
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.container .contaner-input input::placeholder{
+    color: black;
+}
+
+.container .btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 25px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #abb94c;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+.container .btns:hover{
+    background-color: #f0f975;
+}
+
+.container ul li{
+    color: white;
+}
+
+.container ul li{
+    background-color: #f0f975;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container ul li span{
+    font-size: 24px;
+    font-weight: 700;
+    color: red;
+}
